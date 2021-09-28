@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: tomato;
+    background-color: rgb(65, 65, 65);
     width: 100%;
 
 }
@@ -76,7 +76,7 @@ main aside {
 /* footer */
 
 footer {
-    background-color: grey;
+    background-color: rgb(65, 65, 65);
     color: white;
     text-align: center;
     font-size: 12px;
@@ -111,7 +111,11 @@ footer {
        grid-template-areas: 
        "s1 s2 s5"
        "s3 s4 s5";
-       height: 91vh;
+       
+   }
+
+   main section {
+       height: 300px;
    }
 
    #sec-um {
